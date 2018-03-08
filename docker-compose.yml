@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  infallible-code-discord-bot:
+    image: infallible-code-discord-bot
+    build:
+      context: ./infallible-code-discord-bot
+      dockerfile: Dockerfile

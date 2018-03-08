@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  infallible-code-discord-bot:
+    environment:
+      - ICDB_RULES_MESSAGE_ID=
+      - ICDB_RULES_CHANNEL_ID=
+      - ICDB_DISCORD_TOKEN=
